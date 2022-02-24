@@ -162,11 +162,16 @@
 @media all and (max-width: 480px) {
 	body {
 	  width: 480px;
+	  height: 1800px;
 	}
   
 	.navbar {
 	  width: 480px;
 	  height: 40px;
+	}
+
+	.icon-menu {
+		opacity: 1;
 	}
   
 	.grip48 {
@@ -214,45 +219,61 @@
 	}
   
 	.main-content {
-	  height: 920px;
-	  margin: 10px 0;
+	  height: 1600px;
+	  margin: 10px 0px;
+	  width: 100%;
+	  flex-direction: column;
+	  justify-content: center;
+	  align-items: center;
+	  
 	}
   
 	.content-01 {
-	  width: 280px;
+	  width: 310px;
 	  margin: 0;
+	  height: 510px;
+	  border-radius: 12px 12px;
+	  margin-bottom: 20px;
+	  
 	}
   
 	.content-02 {
-	  width: 300px;
+	  width: 310px;
+	  height: 1050px;
+	  border-radius: 12px 12px;
 	}
   
 	.text-ct-01 {
-	  margin: 10px 0 0 5px;
+	  margin: 20px 0 0 25px;
+	  justify-content:center;
+	  align-items:center;
 	}
   
 	.text-ct-01-regular {
-	  font-size: 10px;
+	  font-size: 16px;
+
 	}
 	.text-ct-01-bold {
-	  font-size: 10px;
-	  margin-left: 3px;
+	  font-size: 16px;
+	  margin-left: 15px;
 	}
   
 	.icon-ct-01 {
+		display: inline-block;
 	  margin-left: 75px;
 	  margin-top: 32px;
-	  display: flex;
-	  flex-direction: column;
+	  
+	  
 	}
   
 	.icon-ct-01 svg {
-	  margin-right: 0;
+	  margin-right: 15px;
 	  margin-bottom: 20px;
+	  
 	}
   
 	.text-ct-02 {
-	  margin: 10px 0 0 5px;
+	  margin: 10px 0 0 15px;
 	}
   
 	.text-ct-02 p {
@@ -267,13 +288,13 @@
 	.icon-ct-02 {
 		
 	  height: 20px;
-	  margin-left: 180px;
+	  margin-left: 80px;
 	  margin-top: 15px;
 	  align-items: center;
 	}
   
 	.icon-ct-02 svg {
-	  margin-right: 5px;
+	  margin-right: 15px;
 	}
   
 	.db-ct-02 {
@@ -281,7 +302,6 @@
 	  margin-left: 10px;
 	  margin-right: 10px;
 	  margin-top: 40px;
-	  
 	  flex-wrap: wrap;
 	}
   
