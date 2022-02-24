@@ -1,0 +1,308 @@
+
+
+/* tablet */
+@media all and (max-width: 1024px) {
+	body {
+		width: 1024px;
+	  }
+	
+	  .navbar {
+		width: 1024px;
+		height: 50px;
+	  }
+	
+	  .grip48 {
+		margin-left: 25px;
+		
+	  }
+	
+	  .grip48 svg {
+		width: 28px;
+		height: 28px;
+	  }
+	
+	  .logo {
+		margin-left: 25px;
+		
+	  }
+	
+	  .logo svg {
+		width: 150px;
+		height: 28px;
+	  }
+	
+	  .alarm-bell {
+		width: 24px;
+		height: 24px;
+		margin-left: 500px;
+	  }
+	  
+	  .single {
+		width: 28px;
+		height: 28px;
+		margin-left: 24px;
+	  }
+	  
+	  .text-01 {
+		width: 205px;
+		height: 18px;
+		font-size: 15px;
+		line-height: 18px;
+		color: #ffffff;
+		margin-top: 5px;
+		margin-left: 8px;
+	  }
+	
+	  .container-nav {
+		top: 10px;
+	  }
+	
+	  .content {
+		margin-left: 10px;
+	  }
+	
+	  .text-02 {
+		font-size: 40px;
+		line-height: 40px;
+		margin-top: 25px;
+	  }
+	
+	  .main-content {
+		margin: 25px 0;
+	  }
+	
+	  .content-01 {
+		width: 300px;
+		margin: 0;
+	  }
+	
+	  .content-02 {
+		width: 714px;
+	  }
+	
+	  .text-ct-01 {
+		margin: 20px 0 0 15px;
+	  }
+	
+	  .text-ct-01-regular {
+		font-size: 16px;
+	  }
+	  .text-ct-01-bold {
+		font-size: 16px;
+		margin-left: 13px;
+	  }
+	
+	  .icon-ct-01 {
+		margin-left: 130px;
+		margin-top: 40px;
+		display: flex;
+		flex-direction: column;
+	  }
+	
+	  .icon-ct-01 svg {
+		margin-bottom: 30px;
+	  }
+	
+	  .text-ct-02 {
+		margin: 20px 0 0 15px;
+	  }
+	
+	  .text-ct-02 p {
+		font-size: 30px;
+		line-height: 32px;
+	  }
+	  .VDU {
+		margin-left: 165px;
+		margin-right: 165px;
+	  }
+	
+	  .icon-ct-02 {
+		height: 20px;
+		margin-left: 580px;
+		margin-top: 15px;
+		align-items: center;
+	  }
+	
+	  .icon-ct-02 svg {
+		margin-right: 10px;
+	  }
+	
+	  .db-ct-02 {
+		height: 20px;
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-top: 40px;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	  }
+	
+	  .rectangle-db-ct-02 {
+		width: 310px;
+		height: 215px;
+		margin-bottom: 40px;
+		
+	  }
+	
+	  .detail {
+		margin-top: 20px;
+		height: 110px;
+		width: 300px;
+		margin-left: 10px;
+		flex-wrap: wrap;
+		
+	  }
+	
+	  .detail div span {
+		font-size: 20px;
+	  margin-left: 5px;
+	  }
+}
+
+/* mobile */
+@media all and (max-width: 480px) {
+	body {
+	  width: 480px;
+	}
+  
+	.navbar {
+	  width: 480px;
+	  height: 40px;
+	}
+  
+	.grip48 {
+	  margin-left: 10px;
+	}
+  
+	.grip48 svg {
+	  width: 22px;
+	  height: 22px;
+	}
+  
+	.logo {
+	  margin-left: 10px;
+	}
+  
+	.logo svg {
+	  width: 120px;
+	  height: 22px;
+	}
+  
+	.alarm-bell {
+	  display: none;
+	}
+  
+	.single {
+	  display: none;
+	}
+  
+	.text-01 {
+	  display: none;
+	}
+  
+	.container-nav {
+	  top: 10px;
+	}
+  
+	.content {
+	  margin-left: 10px;
+	}
+  
+	.text-02 {
+	  font-size: 32px;
+	  line-height: 32px;
+	  margin-top: 10px;
+	}
+  
+	.main-content {
+	  height: 920px;
+	  margin: 10px 0;
+	}
+  
+	.content-01 {
+	  width: 280px;
+	  margin: 0;
+	}
+  
+	.content-02 {
+	  width: 300px;
+	}
+  
+	.text-ct-01 {
+	  margin: 10px 0 0 5px;
+	}
+  
+	.text-ct-01-regular {
+	  font-size: 10px;
+	}
+	.text-ct-01-bold {
+	  font-size: 10px;
+	  margin-left: 3px;
+	}
+  
+	.icon-ct-01 {
+	  margin-left: 75px;
+	  margin-top: 32px;
+	  display: flex;
+	  flex-direction: column;
+	}
+  
+	.icon-ct-01 svg {
+	  margin-right: 0;
+	  margin-bottom: 20px;
+	}
+  
+	.text-ct-02 {
+	  margin: 10px 0 0 5px;
+	}
+  
+	.text-ct-02 p {
+	  font-size: 20px;
+	  line-height: 22px;
+	}
+	.VDU {
+	  margin-left: 20px;
+	  margin-right: 20px;
+	}
+  
+	.icon-ct-02 {
+		
+	  height: 20px;
+	  margin-left: 180px;
+	  margin-top: 15px;
+	  align-items: center;
+	}
+  
+	.icon-ct-02 svg {
+	  margin-right: 5px;
+	}
+  
+	.db-ct-02 {
+	  height: 20px;
+	  margin-left: 10px;
+	  margin-right: 10px;
+	  margin-top: 40px;
+	  
+	  flex-wrap: wrap;
+	}
+  
+	.rectangle-db-ct-02 {
+	  width: 275px;
+	  height: 215px;
+	  margin-bottom: 20px;
+	  
+	}
+  
+	.detail {
+	  margin-top: 20px;
+	  height: 110px;
+	  width: 260px;
+	  margin-left: 10px;
+	  flex-wrap: wrap;
+	  
+	}
+  
+	.detail div span {
+	  font-size: 18px;
+	margin-left: 5px;
+	}
+  }
