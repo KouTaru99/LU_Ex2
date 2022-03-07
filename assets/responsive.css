@@ -1,267 +1,492 @@
+/* small decktop */
+@media all and (max-width: 1600px) {
+  .icon-menu {
+    font-size: 25px;
+    color: #fff;
+    float: right;
+    margin-right: 8px;
+    margin-top: 3px;
+    opacity: 0;
+  }
 
+  .navbar {
+    height: 64px;
+    background: #000000;
+    opacity: 0.2;
+  }
+  .logo {
+    margin-left: 24px;
+  }
 
+  .grip48 {
+    width: 24px;
+    height: 24px;
+    margin-left: 40px;
+  }
+
+  .alarm-bell {
+    width: 24px;
+    height: 24px;
+  }
+
+  .single {
+    width: 28px;
+    height: 28px;
+    margin-left: 24px;
+  }
+
+  .text-01 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #ffffff;
+    margin-top: 5px;
+    margin-left: 8px;
+    margin-right: 65px;
+  }
+  .container-nav-left {
+    display: flex;
+  }
+
+  .container-nav-right {
+    display: flex;
+  }
+
+  .container-nav {
+    position: absolute;
+    display: flex;
+    top: 18px;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .content {
+    margin-left: 40px;
+  }
+
+  .text-02 {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 600px;
+    font-size: 40px;
+    line-height: 48px;
+    color: #ffffff;
+    margin-top: 30px;
+  }
+
+  .main-content {
+    margin: 30px 40px 40px 0px;
+  }
+
+  .content-02 {
+    background: #212529;
+    opacity: 0.8;
+    border-radius: 0px 12px 12px 0px;
+    width: 78%;
+  }
+
+  .text-ct-01 {
+    margin: 25px 0 0 25px;
+    display: flex;
+  }
+
+  .res-text-1 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+  }
+
+  .text-ct-01-regular {
+    font-size: 13px;
+    line-height: 40px;
+  }
+  .text-ct-01-bold {
+    margin-left: 15px;
+    font-size: 13px;
+    line-height: 40px;
+  }
+
+  .icon-ct-01 {
+    margin: 30px 0 10px 25px;
+  }
+
+  .db-ct-02 {
+  }
+  /* .rectangle-db-ct-02 {
+		width: 45%;
+		margin-bottom: 10px;
+	} */
+  .detail {
+    margin: 25px 15px 25px 15px;
+  }
+
+  .detail div p {
+    font-size: 14px;
+    margin-left: 5px;
+  }
+  .text-res-ct-02 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 65%;
+  }
+  .box-detail-1 {
+    margin-right: 2px;
+  }
+}
+
+@media all and (max-width: 1170px) {
+  .res-text-1 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 90%;
+  }
+
+  .text-res-ct-02 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 55%;
+  }
+
+  .box-detail-1 {
+    margin-right: 0px;
+  }
+}
 /* tablet */
-@media all and (max-width: 1024px) {
-	body {
-		width: 1024px;
-	  }
-	
-	  .navbar {
-		width: 1024px;
-		height: 50px;
-	  }
-	
-	  .grip48 {
-		margin-left: 25px;
-		
-	  }
-	
-	  .grip48 svg {
-		width: 28px;
-		height: 28px;
-	  }
-	
-	  .logo {
-		margin-left: 25px;
-		
-	  }
-	
-	  .logo svg {
-		width: 150px;
-		height: 28px;
-	  }
-	
-	  .alarm-bell {
-		width: 24px;
-		height: 24px;
-		margin-left: 500px;
-	  }
-	  
-	  .single {
-		width: 28px;
-		height: 28px;
-		margin-left: 24px;
-	  }
-	  
-	  .text-01 {
-		width: 205px;
-		height: 18px;
-		font-size: 15px;
-		line-height: 18px;
-		color: #ffffff;
-		margin-top: 5px;
-		margin-left: 8px;
-	  }
-	
-	  .container-nav {
-		top: 10px;
-	  }
-	
-	  .content {
-		margin-left: 10px;
-	  }
-	
-	  .text-02 {
-		font-size: 40px;
-		line-height: 40px;
-		margin-top: 25px;
-	  }
-	
-	  .main-content {
-		margin: 25px 0;
-	  }
-	
-	  .content-01 {
-		width: 300px;
-		margin: 0;
-	  }
-	
-	  .content-02 {
-		width: 714px;
-	  }
-	
-	  .text-ct-01 {
-		margin: 20px 0 0 15px;
-	  }
-	
-	  .text-ct-01-regular {
-		font-size: 16px;
-	  }
-	  .text-ct-01-bold {
-		font-size: 16px;
-		margin-left: 13px;
-	  }
-	
-	  .icon-ct-01 {
-		margin-left: 130px;
-		margin-top: 40px;
-		display: flex;
-		flex-direction: column;
-	  }
-	
-	  .icon-ct-01 svg {
-		margin-bottom: 30px;
-	  }
-	
-	  .text-ct-02 {
-		margin: 20px 0 0 15px;
-	  }
-	
-	  .text-ct-02 p {
-		font-size: 30px;
-		line-height: 32px;
-	  }
-	  .VDU {
-		margin-left: 165px;
-		margin-right: 165px;
-	  }
-	
-	  .icon-ct-02 {
-		height: 20px;
-		margin-left: 580px;
-		margin-top: 15px;
-		align-items: center;
-	  }
-	
-	  .icon-ct-02 svg {
-		margin-right: 10px;
-	  }
-	
-	  .db-ct-02 {
-		height: 20px;
-		margin-left: 10px;
-		margin-right: 10px;
-		margin-top: 40px;
-		flex-wrap: wrap;
-		justify-content: space-around;
-	  }
-	
-	  .rectangle-db-ct-02 {
-		width: 310px;
-		height: 215px;
-		margin-bottom: 40px;
-		
-	  }
-	
-	  .detail {
-		margin-top: 20px;
-		height: 110px;
-		width: 300px;
-		margin-left: 10px;
-		flex-wrap: wrap;
-		
-	  }
-	
-	  .detail div span {
-		font-size: 20px;
-	  margin-left: 5px;
-	  }
+@media all and (max-width: 1120px) {
+  .grip48 {
+    margin-left: 25px;
+  }
+
+  .grip48 svg {
+    width: 28px;
+    height: 28px;
+  }
+
+  .logo {
+    margin-left: 25px;
+  }
+
+  .logo svg {
+    width: 150px;
+    height: 28px;
+  }
+
+  .alarm-bell {
+    margin-top: 2px;
+    width: 24px;
+    height: 24px;
+  }
+
+  .single {
+    width: 28px;
+    height: 28px;
+    margin-left: 24px;
+  }
+
+  .text-01 {
+    margin-top: 5px;
+    margin-left: 8px;
+  }
+
+  .container-nav {
+    top: 15px;
+  }
+
+  .content {
+    margin-left: 25px;
+  }
+
+  .text-02 {
+    font-size: 40px;
+    line-height: 40px;
+    margin-top: 25px;
+  }
+
+  .main-content {
+    margin: 25px 0;
+  }
+
+  .content-01 {
+    margin: 0;
+  }
+
+  .text-ct-01 {
+    margin: 20px 0 0 15px;
+  }
+
+  .text-ct-01-regular {
+    font-size: 12px;
+  }
+  .text-ct-01-bold {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+
+  .icon-ct-01 {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icon-ct-01 svg {
+    margin-bottom: 30px;
+  }
+
+  .db-ct-02 {
+    margin-top: 15px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .rectangle-db-ct-02 {
+    width: 45%;
+    margin-bottom: 15px;
+  }
+
+  .res-text-1 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+  }
+
+  .text-res-ct-02 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .box-detail-1 {
+    margin-right: 35px;
+  }
+}
+
+
+
+@media all and (max-width: 1170px) {
+  .res-text-1 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 90%;
+  }
+
+  .text-res-ct-02 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 55%;
+  }
+
+  .box-detail-1 {
+    margin-right: 0px;
+  }
+}
+/* tablet */
+@media all and (max-width: 1120px) {
+  .grip48 {
+    margin-left: 25px;
+  }
+
+  .grip48 svg {
+    width: 28px;
+    height: 28px;
+  }
+
+  .logo {
+    margin-left: 25px;
+  }
+
+  .logo svg {
+    width: 150px;
+    height: 28px;
+  }
+
+  .alarm-bell {
+    margin-top: 2px;
+    width: 24px;
+    height: 24px;
+  }
+
+  .single {
+    width: 28px;
+    height: 28px;
+    margin-left: 24px;
+  }
+
+  .text-01 {
+    margin-top: 5px;
+    margin-left: 8px;
+  }
+
+  .container-nav {
+    top: 15px;
+  }
+
+  .content {
+    margin-left: 25px;
+  }
+
+  .text-02 {
+    font-size: 40px;
+    line-height: 40px;
+    margin-top: 25px;
+  }
+
+  .main-content {
+    margin: 25px 0;
+  }
+
+  .content-01 {
+    margin: 0;
+  }
+
+  .text-ct-01 {
+    margin: 20px 0 0 15px;
+  }
+
+  .text-ct-01-regular {
+    font-size: 12px;
+  }
+  .text-ct-01-bold {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+
+  .icon-ct-01 {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icon-ct-01 svg {
+    margin-bottom: 30px;
+  }
+
+  .db-ct-02 {
+    margin-top: 15px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .rectangle-db-ct-02 {
+    width: 45%;
+    margin-bottom: 15px;
+  }
+
+  .res-text-1 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 75%;
+  }
+
+  .text-res-ct-02 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .box-detail-1 {
+    margin-right: 35px;
+  }
 }
 
 /* mobile */
-@media all and (max-width: 480px) {
-	body {
-	  width: 480px;
-	  height: 1800px;
-	}
-  
-	.navbar {
-	  width: 480px;
-	  height: 40px;
-	}
-
+@media all and (max-width: 780px) {
 	.icon-menu {
 		opacity: 1;
+		margin: 20px;
 	}
-  
-	.grip48 {
-	  margin-left: 10px;
+	.container-nav-right {
+		display: none;
 	}
-  
-	.grip48 svg {
-	  width: 22px;
-	  height: 22px;
-	}
-  
-	.logo {
-	  margin-left: 10px;
-	}
-  
-	.logo svg {
-	  width: 120px;
-	  height: 22px;
-	}
-  
-	.alarm-bell {
-	  display: none;
-	}
-  
-	.single {
-	  display: none;
-	}
-  
-	.text-01 {
-	  display: none;
-	}
-  
-	.container-nav {
-	  top: 10px;
-	}
-  
-	.content {
-	  margin-left: 10px;
-	}
-  
-	.text-02 {
-	  font-size: 32px;
-	  line-height: 32px;
-	  margin-top: 10px;
-	}
-  
-	.main-content {
-	  height: 1600px;
-	  margin: 10px 0px;
-	  width: 100%;
-	  flex-direction: column;
-	  justify-content: center;
-	  align-items: center;
-	  
-	}
-  
-	.content-01 {
-	  width: 310px;
-	  margin: 0;
-	  height: 510px;
-	  border-radius: 12px 12px;
-	  margin-bottom: 20px;
-	  
-	}
-  
-	.content-02 {
-	  width: 310px;
-	  height: 1050px;
-	  border-radius: 12px 12px;
-	}
-  
-	.text-ct-01 {
-	  margin: 20px 0 0 25px;
-	  justify-content:center;
-	  align-items:center;
-	}
-  
-	.text-ct-01-regular {
-	  font-size: 16px;
 
-	}
-	.text-ct-01-bold {
-	  font-size: 16px;
-	  margin-left: 15px;
+	.content {
+		margin-left: 10px;
+	  }
+
+	.main-content {
+		margin: 10px 30px;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 200vh;
+	  }
+
+	  .text-02 {
+		font-size: 32px;
+		line-height: 32px;
+		margin-top: 10px;
+		margin-left: 15px;
+	  }
+
+	  .content-01 {
+		border-radius: 12px 12px;
+		margin-bottom: 10px;
+		width: 78%;
+	  }
+
+	  .content-02 {
+
+		border-radius: 12px 12px;
+	  }
+
+	  .text-ct-01 {
+		margin: 20px 0 0 25px;
+		justify-content:center;
+		align-items:center;
+		
+	  }
+
+	  .text-ct-01-regular {
+		font-size: 20px;
+  
+	  }
+	  .text-ct-01-bold {
+		font-size: 20px;
+		margin-left: 30px;
+	  }
+
+	.detail {
+	  margin: 25px 15px 25px 15px;
 	}
   
+	.detail div p {
+	  font-size: 14px;
+	  margin-left: 5px;
+	}
+	.text-res-ct-02 {
+	  white-space: nowrap;
+	  overflow: hidden;
+	  text-overflow: ellipsis;
+	  width: 100%;
+	  font-size: 20px;
+	}
+	.box-detail-1 {
+	  margin-right: 2px;
+	}
+
+	.res-text-1 {
+		white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+	}
+
 	.icon-ct-01 {
 		display: inline-block;
-	  margin-left: 75px;
-	  margin-top: 32px;
+	  margin-left: 120px;
+	  margin-top: 30px;
 	  
 	  
 	}
@@ -271,58 +496,20 @@
 	  margin-bottom: 20px;
 	  
 	}
-  
-	.text-ct-02 {
-	  margin: 10px 0 0 15px;
-	}
-  
-	.text-ct-02 p {
-	  font-size: 20px;
-	  line-height: 22px;
-	}
-	.VDU {
-	  margin-left: 20px;
-	  margin-right: 20px;
-	}
-  
-	.icon-ct-02 {
-		
-	  height: 20px;
-	  margin-left: 80px;
-	  margin-top: 15px;
-	  align-items: center;
-	}
-  
-	.icon-ct-02 svg {
-	  margin-right: 15px;
-	}
-  
+
 	.db-ct-02 {
-	  height: 20px;
-	  margin-left: 10px;
-	  margin-right: 10px;
-	  margin-top: 40px;
-	  flex-wrap: wrap;
-	}
-  
-	.rectangle-db-ct-02 {
-	  width: 275px;
-	  height: 215px;
-	  margin-bottom: 20px;
-	  
-	}
-  
-	.detail {
-	  margin-top: 20px;
-	  height: 110px;
-	  width: 260px;
-	  margin-left: 10px;
-	  flex-wrap: wrap;
-	  
-	}
-  
-	.detail div span {
-	  font-size: 18px;
-	margin-left: 5px;
-	}
+		display: inline-block;
+	  }
+
+	  .rectangle-db-ct-02 {
+		  width: 130%;
+	  }
+
+	  .box-detail-1 {
+		  margin-right: 40px;
+	  }
+
+	  .detail div p {
+		  margin-left: 15px;
+	  }
   }
