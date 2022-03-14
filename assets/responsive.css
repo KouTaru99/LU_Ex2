@@ -575,7 +575,7 @@
   font-size: 16px;
 }
 .icon-ct-01 {
-  margin-left: 40px;
+  margin-left: 80px;
 }
 
 .text-ct-02 span {
@@ -678,6 +678,9 @@
     margin: 0;
     margin-top: 10px;
   }
+  .text-ct-01 {
+    margin: 20px 0 0 10px;
+}
 
 .icon-ct-02 {
   justify-content: space-between;
@@ -720,6 +723,9 @@
 .detail div p {
   font-size: 18px;
 }
+.icon-ct-01 {
+  margin-left: 40px;
+}
 
 }
 
@@ -730,6 +736,10 @@
     margin: 0;
     margin-top: 10px;
   }
+
+  .icon-ct-01 {
+    margin-left: 25px;
+}
 
 .icon-ct-02 {
   justify-content: space-between;
