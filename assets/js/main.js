@@ -28,21 +28,42 @@ let arr3 = [
       option4: "option4",
     },
     {
-        cardName: "name4",
+        cardName: "name5",
         option1: "option1",
         option2: "option2",
         option3: "option3",
         option4: "option4",
       },
       {
-        cardName: "name4",
+        cardName: "name6",
         option1: "option1",
         option2: "option2",
         option3: "option3",
         option4: "option4",
       },
       {
-        cardName: "name4",
+        cardName: "name7",
+        option1: "option1",
+        option2: "option2",
+        option3: "option3",
+        option4: "option4",
+      },
+      {
+        cardName: "name8",
+        option1: "option1",
+        option2: "option2",
+        option3: "option3",
+        option4: "option4",
+      },
+      {
+        cardName: "name9",
+        option1: "option1",
+        option2: "option2",
+        option3: "option3",
+        option4: "option4",
+      },
+      {
+        cardName: "name10",
         option1: "option1",
         option2: "option2",
         option3: "option3",
@@ -232,6 +253,14 @@ let arr3 = [
                   </div>`;
     }
   
+  }
+
+  function changeList(type, element) {
+    let tabs = document.getElementsByClassName('tab-item');
+    for (let i = 0; i < tabs.length; i++) {
+      tabs[i].style.backgroundColor = 'orange';
+    }
+    element.style.backgroundColor = 'orangered';
   }
   
   

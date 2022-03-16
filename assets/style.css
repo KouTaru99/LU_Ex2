@@ -269,3 +269,17 @@ body {
   margin-bottom: 20px;
   display: flex;
 }
+
+/*  */
+.tab-item {
+  padding: 10px 40px;
+  background-color: orange;
+  border-radius: 2px;
+  border: none;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.active {
+  background-color: orangered;
+}

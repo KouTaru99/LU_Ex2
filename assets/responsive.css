@@ -393,6 +393,10 @@
     font-size: 20px;
   }
 
+  .detail div p {
+    font-size: 22px;
+  }
+
   .box-detail-1 {
     margin-right: 35px;
   }
@@ -614,9 +618,7 @@
     width: 120%;
   }
 
-  .box-detail-1 {
-    
-  }
+  
 }
 
 @media all and (max-width: 530px) { 
