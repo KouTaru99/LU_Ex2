@@ -339,9 +339,12 @@
           </div>
 
           <div class="icon-ct-02">
+            <div class="btn-search"></div>
             <svg
-              width="40"
-              height="40"
+              
+              onclick="searchItem()"
+              width="30"
+              height="30"
               viewBox="0 0 40 40"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -352,7 +355,7 @@
                 fill="white"
               />
             </svg>
-
+            
             <svg
               class="small-icon"
               width="22"
@@ -414,7 +417,7 @@
             </svg>
 
             <!--  -->
-            <button class="tab-item active" onclick="changeList('trend', this)">Trend</button>
+            <button disabled="disabled" class="tab-item active" onclick="changeList('trend', this)">Trend</button>
             <button class="tab-item" onclick="changeList('new', this)">New</button>
             <button class="tab-item" onclick="changeList('mall', this)">Mall</button>
           </div>

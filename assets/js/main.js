@@ -1,108 +1,108 @@
 let arr3 = [
   {
-    cardName: "name1",
-    option1: "option1",
-    option2: "option2",
-    option3: "option3",
-    option4: "option4",
+    cardName: "name 1",
+    option1: "option 1",
+    option2: "option 2",
+    option3: "option 3",
+    option4: "option 4",
   },
   {
-    cardName: "name2",
-    option1: "option1",
-    option2: "option2",
-    option3: "option3",
-    option4: "option4",
+    cardName: "name 2",
+    option1: "option 1",
+    option2: "option 2",
+    option3: "option 3",
+    option4: "option 4",
   },
   {
-    cardName: "name3",
-    option1: "option1",
-    option2: "option2",
-    option3: "option3",
-    option4: "option4",
+    cardName: "name 3",
+    option1: "option 1",
+    option2: "option 2",
+    option3: "option 3",
+    option4: "option 4",
   },
   {
-    cardName: "name4",
-    option1: "option1",
-    option2: "option2",
-    option3: "option3",
-    option4: "option4",
+    cardName: "name 4",
+    option1: "option 1",
+    option2: "option 2",
+    option3: "option 3",
+    option4: "option 4",
   },
   {
-    cardName: "name5",
-    option1: "option1",
-    option2: "option2",
-    option3: "option3",
-    option4: "option4",
+    cardName: "name 5",
+    option1: "option 1",
+    option2: "option 2",
+    option3: "option 3",
+    option4: "option 4",
   },
   {
-    cardName: "name6",
-    option1: "option1",
-    option2: "option2",
-    option3: "option3",
-    option4: "option4",
+    cardName: "name 6",
+    option1: "option 1",
+    option2: "option 2",
+    option3: "option 3",
+    option4: "option 4",
   },
   {
-    cardName: "name7",
-    option1: "option1",
-    option2: "option2",
-    option3: "option3",
-    option4: "option4",
+    cardName: "name 7",
+    option1: "option 1",
+    option2: "option 2",
+    option3: "option 3",
+    option4: "option 4",
   },
   {
-    cardName: "name8",
-    option1: "option1",
-    option2: "option2",
-    option3: "option3",
-    option4: "option4",
+    cardName: "name 8",
+    option1: "option 1",
+    option2: "option 2",
+    option3: "option 3",
+    option4: "option 4",
   },
   {
-    cardName: "name9",
-    option1: "option1",
-    option2: "option2",
-    option3: "option3",
-    option4: "option4",
+    cardName: "name 9",
+    option1: "option 1",
+    option2: "option 2",
+    option3: "option 3",
+    option4: "option 4",
   },
   {
-    cardName: "name10",
-    option1: "option1",
-    option2: "option2",
-    option3: "option3",
-    option4: "option4",
+    cardName: "name 10",
+    option1: "option 1",
+    option2: "option 2",
+    option3: "option 3",
+    option4: "option 4",
   },
   {
-    cardName: "name11",
-    option1: "option1",
-    option2: "option2",
-    option3: "option3",
-    option4: "option4",
+    cardName: "name 11",
+    option1: "option 1",
+    option2: "option 2",
+    option3: "option 3",
+    option4: "option 4",
   },
   {
-    cardName: "name12",
-    option1: "option1",
-    option2: "option2",
-    option3: "option3",
-    option4: "option4",
+    cardName: "name 12",
+    option1: "option 1",
+    option2: "option 2",
+    option3: "option 3",
+    option4: "option 4",
   },
   {
-    cardName: "name13",
-    option1: "option1",
-    option2: "option2",
-    option3: "option3",
-    option4: "option4",
+    cardName: "name 13",
+    option1: "option 1",
+    option2: "option 2",
+    option3: "option 3",
+    option4: "option 4",
   },
   {
-    cardName: "name14",
-    option1: "option1",
-    option2: "option2",
-    option3: "option3",
-    option4: "option4",
+    cardName: "name 14",
+    option1: "option 1",
+    option2: "option 2",
+    option3: "option 3",
+    option4: "option 4",
   },
   {
-    cardName: "name15",
-    option1: "option1",
-    option2: "option2",
-    option3: "option3",
-    option4: "option4",
+    cardName: "name 15",
+    option1: "option 1",
+    option2: "option 2",
+    option3: "option 3",
+    option4: "option 4",
   },
 ];
 
@@ -291,8 +291,11 @@ function changeList(type, element) {
   let tabs = document.getElementsByClassName("tab-item");
   for (let i = 0; i < tabs.length; i++) {
     tabs[i].style.backgroundColor = "orange";
+    tabs[i].disabled = false;
+    
   }
   element.style.backgroundColor = "orangered";
+  element.disabled = true;
   node.innerHTML = "";
   switch (type) {
     case "trend":
@@ -473,7 +476,7 @@ function changeList(type, element) {
       }
       break;
     case "new":
-      for (let i = 5; i < 9; i++) {
+      for (let i = 5; i < 10; i++) {
         const p = arr3[i];
         node.innerHTML += `<div class="rectangle-db-ct-02 show">
           <div class="arrow">
@@ -650,7 +653,7 @@ function changeList(type, element) {
       }
       break;
     case "mall":
-      for (let i = 9; i < arr3.length; i++) {
+      for (let i = 10; i < arr3.length; i++) {
         const p = arr3[i];
         node.innerHTML += `<div class="rectangle-db-ct-02 show">
           <div class="arrow">
@@ -827,4 +830,9 @@ function changeList(type, element) {
       }
       break;
   }
+}
+
+function searchItem() {
+  let search = document.querySelector('.btn-search');
+  search.innerHTML = `<input type="text" class= "input-item" placeholder= "Enter item name...">`
 }
