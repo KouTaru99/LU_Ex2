@@ -618,6 +618,9 @@
     width: 120%;
   }
 
+  .tab-item {
+    padding: 5px 10px;
+  }
   
 }
 
