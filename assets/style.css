@@ -283,3 +283,13 @@ body {
 .active {
   background-color: orangered;
 }
+
+.show {
+  -webkit-animation: silde-down 5s ease-in-out;
+  -moz-animation: silde-down 10s ease-in-out;
+}
+
+@-webkit-keyframes silde-down {
+  0% { opacity: 0}
+  20% { opacity: 1; }
+}
